@@ -51,6 +51,7 @@
             this.btnPopupAddClient.TabIndex = 0;
             this.btnPopupAddClient.Text = "Add";
             this.btnPopupAddClient.UseVisualStyleBackColor = false;
+            this.btnPopupAddClient.Click += new System.EventHandler(this.btnPopupAddClient_Click);
             // 
             // label1
             // 
@@ -116,6 +117,7 @@
             this.txtAddClientPhoneNo.Name = "txtAddClientPhoneNo";
             this.txtAddClientPhoneNo.Size = new System.Drawing.Size(283, 23);
             this.txtAddClientPhoneNo.TabIndex = 2;
+            this.txtAddClientPhoneNo.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtAddClientPhoneNo_KeyPress);
             // 
             // Add_Client
             // 
@@ -134,7 +136,9 @@
             this.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Add_Client";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Add_Client";
+            this.Load += new System.EventHandler(this.Add_Client_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -150,5 +154,6 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.TextBox txtAddClientLastName;
         private System.Windows.Forms.TextBox txtAddClientPhoneNo;
+        private System.Windows.Forms.ListView lvwClient;
     }
 }

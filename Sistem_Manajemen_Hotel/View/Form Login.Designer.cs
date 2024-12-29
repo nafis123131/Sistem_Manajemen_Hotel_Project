@@ -63,6 +63,7 @@
             this.btnLogin.TabIndex = 3;
             this.btnLogin.Text = "Login";
             this.btnLogin.UseVisualStyleBackColor = false;
+            this.btnLogin.Click += new System.EventHandler(this.btnLogin_Click);
             // 
             // panel1
             // 
@@ -106,7 +107,7 @@
             // pcbHide
             // 
             this.pcbHide.Image = global::Sistem_Manajemen_Hotel.Properties.Resources.hidden;
-            this.pcbHide.Location = new System.Drawing.Point(334, 244);
+            this.pcbHide.Location = new System.Drawing.Point(334, 215);
             this.pcbHide.Name = "pcbHide";
             this.pcbHide.Size = new System.Drawing.Size(29, 23);
             this.pcbHide.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -119,7 +120,7 @@
             // 
             this.txtPassword.Location = new System.Drawing.Point(63, 215);
             this.txtPassword.Name = "txtPassword";
-            this.txtPassword.Size = new System.Drawing.Size(274, 23);
+            this.txtPassword.Size = new System.Drawing.Size(270, 23);
             this.txtPassword.TabIndex = 5;
             // 
             // txtUsername
@@ -128,6 +129,7 @@
             this.txtUsername.Name = "txtUsername";
             this.txtUsername.Size = new System.Drawing.Size(300, 23);
             this.txtUsername.TabIndex = 5;
+            this.txtUsername.TextChanged += new System.EventHandler(this.txtUsername_TextChanged);
             // 
             // label3
             // 
@@ -195,7 +197,7 @@
             this.Name = "Form_Login";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form_Login";
-            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
+            this.Load += new System.EventHandler(this.Form_Login_Load);
             this.panel1.ResumeLayout(false);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();

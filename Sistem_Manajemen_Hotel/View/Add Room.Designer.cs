@@ -143,6 +143,7 @@
             this.btnPopupAddRoom.TabIndex = 10;
             this.btnPopupAddRoom.Text = "Add";
             this.btnPopupAddRoom.UseVisualStyleBackColor = false;
+            this.btnPopupAddRoom.Click += new System.EventHandler(this.btnPopupAddRoom_Click);
             // 
             // Add_Room
             // 
@@ -160,7 +161,7 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Add_Room";
             this.Text = "Add_Room";
             this.ResumeLayout(false);

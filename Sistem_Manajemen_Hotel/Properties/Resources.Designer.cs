@@ -83,9 +83,29 @@ namespace Sistem_Manajemen_Hotel.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap double_bed {
+            get {
+                object obj = ResourceManager.GetObject("double bed", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap eye1 {
             get {
                 object obj = ResourceManager.GetObject("eye1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap family_bed {
+            get {
+                object obj = ResourceManager.GetObject("family bed", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -163,6 +183,16 @@ namespace Sistem_Manajemen_Hotel.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap single_bed {
+            get {
+                object obj = ResourceManager.GetObject("single bed", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap star_12870686 {
             get {
                 object obj = ResourceManager.GetObject("star_12870686", resourceCulture);
@@ -176,6 +206,16 @@ namespace Sistem_Manajemen_Hotel.Properties {
         internal static System.Drawing.Bitmap star_12870686__1_ {
             get {
                 object obj = ResourceManager.GetObject("star_12870686 (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap suite_bed {
+            get {
+                object obj = ResourceManager.GetObject("suite bed", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

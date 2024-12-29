@@ -52,6 +52,7 @@
             this.btnPopupUpdateRoom.TabIndex = 19;
             this.btnPopupUpdateRoom.Text = "Update";
             this.btnPopupUpdateRoom.UseVisualStyleBackColor = false;
+            this.btnPopupUpdateRoom.Click += new System.EventHandler(this.btnPopupUpdateRoom_Click);
             // 
             // txtUpdateRoomPhoneNo
             // 
@@ -65,7 +66,7 @@
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(146)))), ((int)(((byte)(255)))));
-            this.label4.Location = new System.Drawing.Point(57, 271);
+            this.label4.Location = new System.Drawing.Point(57, 273);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(87, 18);
             this.label4.TabIndex = 17;
@@ -127,11 +128,11 @@
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(146)))), ((int)(((byte)(255)))));
-            this.label3.Location = new System.Drawing.Point(57, 188);
+            this.label3.Location = new System.Drawing.Point(54, 188);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(149, 18);
+            this.label3.Size = new System.Drawing.Size(145, 18);
             this.label3.TabIndex = 11;
-            this.label3.Text = " Room Availability :";
+            this.label3.Text = "Room Availability :";
             // 
             // label2
             // 
@@ -160,7 +161,7 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Update_Room";
             this.Text = "Update_Room";
             this.ResumeLayout(false);

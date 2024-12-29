@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Sistem_Manajemen_Hotel.View
 {
-    public partial class Form_Room : Form
+    public partial class usercontrolDashboard : UserControl
     {
-        public Form_Room()
+        public usercontrolDashboard()
         {
             InitializeComponent();
         }

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Sistem_Manajemen_Hotel.View;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -16,7 +17,7 @@ namespace Sistem_Manajemen_Hotel
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Application.Run(new Form_Login());
         }
     }
 }

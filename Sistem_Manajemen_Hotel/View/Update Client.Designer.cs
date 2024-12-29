@@ -58,7 +58,6 @@
             this.txtUpdateClientFirstName.Name = "txtUpdateClientFirstName";
             this.txtUpdateClientFirstName.Size = new System.Drawing.Size(283, 23);
             this.txtUpdateClientFirstName.TabIndex = 10;
-            this.txtUpdateClientFirstName.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // label4
             // 
@@ -117,6 +116,7 @@
             this.btnPopupUpdateClient.TabIndex = 3;
             this.btnPopupUpdateClient.Text = "Update";
             this.btnPopupUpdateClient.UseVisualStyleBackColor = false;
+            this.btnPopupUpdateClient.Click += new System.EventHandler(this.btnPopupUpdateClient_Click);
             // 
             // Update_Client
             // 
@@ -135,6 +135,7 @@
             this.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Update_Client";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Update_Client";
             this.ResumeLayout(false);
             this.PerformLayout();
